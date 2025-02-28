@@ -33,13 +33,12 @@ upstreams:
   -
     name: mlkem-native
     git_url: https://github.com/pq-code-package/mlkem-native.git
-    git_branch: v1.0.0-alpha.2
-    git_commit: 3f1b9fc214a3c3f18e88b144f68814ea7ae88625
+    git_branch: oqs_configs
+    git_commit: 3c2e0e78cbaea4edefc1ba18b61faf9bff2cde3a
     kem_meta_path: 'integration/liboqs/{pretty_name_full}_META.yml'
     kem_scheme_path: '.'
-    patches: [mlkem-native-ml_kem.patch]
     preserve_folder_structure: True
-  - 
+  -
     name: cupqc
     git_url: https://github.com/praveksharma/cupqc-mlkem.git
     git_branch: main
